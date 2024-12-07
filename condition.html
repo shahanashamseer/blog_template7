@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>document</title>
+</head>
+<body>
+    <script>
+        var order1={
+            orderNumber:10011,
+    customerName:'Muhammed',
+    customerMobile:'+911223331',
+    totalAmount:25000
+        }
+        var order2 = {
+    orderNumber:3411,
+    customerName:'Rajesh',
+    customerMobile:'+94545331',
+    totalAmount:48000
+}
+var highestorder;
+if (order1.totalAmount>order2.totalAmount)
+{
+    highestorder=order1;}
+    else (order2.totalAmount>order1.totalAmount)
+    {
+        highestorder=order2;
+    }
+
+console.log("the highest order is:",highestorder);
+var totalorderamount=order1.totalAmount+order2.totalAmount;
+console.log("total order amount is:" ,totalorderamount);
+    
+
+
+
+
+    </script>
+</body>
+</html>
